@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <nav class = "navbar">
+      <ul>
+         <li><a href="index.html" class = "active">Home</a></li>
+         
+         <li><a href="gallery.html"> Gallery</a></li>
+          
+              
+        <div class="dropdown">
+              <button class="dropbtn">Get Involved
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <li>   <a href="discussion.html">Discussion Board</a></li>
+                  <li> <a href="events.html"> Events</a></li> 
+              
+              </div>
+            </div>
+            <li>  <a href="contact.html">Contact Us</a></li>
+              <li> <a href="sign-up.html"> Sign-up</a></li>
+
+      </ul>
+                 
+
+          </div>
+    </nav>
+
+    <h1 class = "title"> Upcoming Events</h1>
+   
+      <div class = "grid-container">
+      <section class= "BoardPost">
+    <h3> Event 1</h3>
+    <p>A chance to share your views and experiences in a kind and supportive group of others who identify as female</p>
+    <p> Based in Heaton Norris, we provide young women aged 10 - 16 with a safe spcae to express themsevles, make new friends and socialise</p>
+  <p></p>
+  <button id="myButton" onclick="popup()">
+    Sign Up for the event
+    </button>
+
+
+</section>
+<section class= "BoardPost">
+  <h3> Event 2</h3>
+  <p>A chance to share your views and experiences in a kind and supportive group of others who identify as female</p>
+  <p> Based in Heaton Norris, we provide young women aged 10 - 16 with a safe spcae to express themsevles, make new friends and socialise</p>
+<p></p>
+<button id="myButton" onclick="popup()">
+  Sign Up for the event
+  </button>
+
+</section>
+<section class= "BoardPost">
+  <h3> Event 3</h3>
+  <p>A chance to share your views and experiences in a kind and supportive group of others who identify as female</p>
+  <p> Based in Heaton Norris, we provide young women aged 10 - 16 with a safe spcae to express themsevles, make new friends and socialise</p>
+<p></p>
+<button id="myButton" onclick="popup()">
+Sign Up for the event
+</button>
+
+
+
+</section>
+<div id="myPopup" class="popup">
+  <div class="popup-content">
+      <h1 >
+        <label for="Email">Enter Email</label>
+        <br>
+          <input type="text" name="Email" id="Email">
+        
+      <button id="closePopup" onclick="closePopup()">
+            Close
+        </button>
+  </div>
+</div>
+<script src="script.js"></script>
+  </body>
+</html>

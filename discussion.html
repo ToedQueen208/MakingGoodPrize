@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+
+
+  </head>
+  <body>
+    <nav class = "navbar">
+      <ul>
+         <li><a href="index.html" class = "active">Home</a></li>
+         
+         <li><a href="gallery.html"> Gallery</a></li>
+          
+              
+        <div class="dropdown">
+              <button class="dropbtn">Get Involved
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <li>   <a href="discussion.html">Discussion Board</a></li>
+                  <li> <a href="events.html"> Events</a></li> 
+              
+              </div>
+            </div>
+            <li>  <a href="contact.html">Contact Us</a></li>
+              <li> <a href="sign-up.html"> Sign-up</a></li>
+
+      </ul>
+                 
+
+          </div>
+    </nav>
+    <h1 class = "title"> Discussion Board</h1>
+      <div class = "grid-container">
+         <section class= "BoardPost">
+          <h3> Title 1</h3>
+          <p>A chance to share your views and experiences in a kind and supportive group of others who identify as female</p>
+          <p> Based in Heaton Norris, we provide young women aged 10 - 16 with a safe spcae to express themsevles, make new friends and socialise</p>
+          <p></p>
+      <label for = "userAnswer1"> Post here</label>
+      <input  type="text" name = "board1" id="userAnswer1" />
+      <button onclick = "returnText(1)"> Post</button>
+      <button type="button" class="collapsible">View Coments</button>
+      <div class="content">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <p id = 'result1'> </p>
+
+      </div>
+   
+</section>
+<section class = "BoardPost">
+  <h2>WHO WE ARE</h2>
+  <p>We are <b>YOUNG WOMENS VOICES</b>, a community group in Heaton Norris which aims to create a safe space for women. Our core values are respect, kindness and being supportive, and if that sounds like you we would love you to <a href="sign-up.html">get involved!</a></p>
+  <label for = "userAnswer2"> Post here</label>
+  <input  type="text" name = "board2" id="userAnswer2" />
+  <button onclick = "returnText(2)"> Post</button>
+      <button type="button" class="collapsible">View Coments</button>
+      <div class="content">
+    
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <p id = 'result2'> wah</p>
+
+      </div>
+ 
+
+</section>
+
+<section class = "BoardPost">
+  <h2>WHAT WE DO</h2>
+    <p>We are a safe space to talk, share and meet other like-minded young women and girls. We talk about the issues important to <b>YOU</b>, such as mental health and wellbeing, hate crimes, LGBTQ+ discussions and much much more. (If you want to raise a topic for one of our meetings, feel free to post on the <a href="discussion.html">Discussion Board!</a>) We do videography, photography and other activities that aim to build confidence and teamwork. We meet every Tuesday at 4.30 at Heaton Norris Community Centre, with free food cooked each week by one of our regular members.</p>
+    <label for = "userAnswer3"> Post here</label>
+    <input  type="text" name = "board3" id="userAnswer3" />
+    <button onclick = "returnText(3)"> Post</button>
+  
+    <button type="button" class="collapsible">View Coments</button>
+    <div class="content">
+  
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <p id = 'result3'> </p>
+  
+    </div>
+  </section>
+</div>
+<button type="button"><a href="sign-up.html">GET INVOLVED</a></button>
+  </div>
+  <script src="script.js"></script>
+ 
+  </body>
+</html>
